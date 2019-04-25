@@ -4,7 +4,7 @@ var app = express();
 //指定启动服务器到哪个文件夹，我这边指的是dist文件夹
 app.use(express.static('./dist'));
 
-//监听端口为3000
+//监听端口为80
 var server = app.listen(80, function () {
     var host = server.address().address;
     var port = server.address().port;
