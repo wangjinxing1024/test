@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueCarbon from 'vue-carbon'
+// import VueCarbon from 'vue-carbon'
 
-Vue.use(VueCarbon)
+// Vue.use(VueCarbon)
 
 Vue.config.productionTip = false
 

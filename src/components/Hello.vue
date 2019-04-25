@@ -18,7 +18,7 @@ import VueQr from 'vue-qr'
 
 
 export default {
-  name: 'hello',
+//  name: 'hello',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',

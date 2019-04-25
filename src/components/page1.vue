@@ -1,31 +1,29 @@
 <template>
   <div>
     <h1 @click="$router.push('/page2')">这是page1</h1>
-
   </div>
 </template>
 
 <script>
-
-
   export default {
     components: {},
-    data(){
+    data () {
       return {
         isLoading: true
       }
     },
-    created(){
+    created () {
+      console.log(3423423)
       this.getData()
     },
-    mounted(){
+    mounted () {
 
     },
     methods: {
-      getData(){
+      getData () {
 
       }
-    },
+    }
 
   }
 </script>
