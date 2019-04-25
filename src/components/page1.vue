@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>这是page1</h1>
+    <h1 @click="$router.push('/page2')">这是page1</h1>
 
   </div>
 </template>

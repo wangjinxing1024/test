@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <div>{{msg}}</div>
+    <h1 @click="$router.push('/page1')">跳转page1</h1>
     <!-- <img src="./score_bg.png" alt="" style="width:100%;" id="pic"> -->
     <!-- <vue-q-art :config="config" :downloadButton="downloadButton"></vue-q-art> -->
 
@@ -34,7 +35,7 @@ export default {
         end: 10,
         refreshing: false
     }
-    
+
   },
   mounte(){
 
